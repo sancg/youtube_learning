@@ -25,41 +25,47 @@ a {
   background-color: transparent;
 }
 
+/* Navbar components */
+.search-bar {
+  background-color: transparent;
+  color: beige;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 1px 0;
+  width: 350px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Sidebar categories */
+.category-btn {
+  text-transform: capitalize !important;
+  display: flex !important;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  /* margin: 100px 0px; */
+  transition: all 0.2s ease;
+}
+
 .category-btn:hover {
-  background-color: #fc1503 !important;
-  color: white !important;
+  background-color: #2e2e2e !important;
+  color: #f8f8f8 !important;
+  /* border-radius: 10px !important; */
+  /* transition: none !important; */
 }
 
 .category-btn:hover span {
-  color: white !important;
+  color: #f8f8f8 !important;
 }
 
 .react-player {
   height: 77vh !important;
   width: 100% !important;
-}
-
-.search-bar {
-  border: none;
-  outline: none;
-  width: 350px;
-}
-
-.category-btn {
-  font-weight: bold !important;
-  text-transform: capitalize;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  cursor: pointer;
-  background: transparent;
-  outline: none;
-  border: none;
-
-  padding: 7px 15px;
-  margin: 10px 0px;
-  border-radius: 20px;
-  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 900px) {
