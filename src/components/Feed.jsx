@@ -20,17 +20,18 @@ const Feed = () => {
     >
       <Box
         sx={{
+          backgroundColor: "#0f0f0f",
           height: {
             sx: "auto",
             md: "100vh",
           },
           borderRight: "1px solid #3d3d3d",
-          px: { sx: 0, md: 2 },
+          pt: 1,
+          pl: { sx: 0, md: 1.5 },
+          pr: 2,
         }}
       >
-        <Sidebar>
-
-        </Sidebar>
+        <Sidebar />
         <Typography
           className="copyright"
           variant="body2"
