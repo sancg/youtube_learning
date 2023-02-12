@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Sidebar from "./Sidebar";
+
+import { Sidebar, Videos } from "./index";
+import { videoDummy } from "../Utils/constants";
 
 const Feed = () => {
   const current_yr = new Date().getFullYear();
@@ -39,6 +41,18 @@ const Feed = () => {
         >
           Copyright {current_yr} JSM Media
         </Typography>
+      </Box>
+
+      <Box
+        sx={{
+          display: "grid",
+          mt: 1,
+          ml: 2,
+          overFlowY: "auto",
+          flex: 2,
+        }}
+      >
+        <Videos videos={videoDummy} />
       </Box>
     </Stack>
   );
