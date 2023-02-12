@@ -11,35 +11,29 @@ const SearchBar = () => {
       component="form"
       onSubmit={() => {}}
       sx={{
+        backgroundColor: "#0f0f0f",
         borderRadius: 10,
-        border: "1px solid #3d3d3d",
-        pl: 4,
+        pl: 2,
         boxShadow: "none",
-        mr: { sm: 5 },
-        alignItems: "center",
-        backgroundColor: "#000",
       }}
     >
       <input
-        type="text"
-        name="search_query"
+        name="search-bar"
         id="search"
-        className="search_bar"
-        placeholder="Search..."
+        className="search-bar"
+        placeholder="Search"
         onChange={() => {}}
-        value=""
-        style={{
-          border: 0,
-          borderRadius: "5px",
-          padding: "0.5em",
-          color: "#FF",
-        }}
+        autoComplete="off"
+        // value=""
       />
       <IconButton
         type="submit"
         sx={{
           p: "10px",
-          color: "red",
+          color: "#f1f1f1",
+          background: "#282828",
+          borderRadius: "0px 40px 40px 0px",
+          width: "4rem",
         }}
       >
         <Search />
