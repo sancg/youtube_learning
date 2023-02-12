@@ -15,7 +15,7 @@ import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
-  { name: "New", icon: <HomeIcon /> },
+  { name: "Home", icon: <HomeIcon /> },
   { name: "Coding", icon: <CodeIcon /> },
   { name: "Music", icon: <MusicNoteIcon /> },
   { name: "Education", icon: <SchoolIcon /> },
@@ -31,11 +31,61 @@ export const categories = [
   { name: "Crypto", icon: <DeveloperModeIcon /> },
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
+export const demoChannelUrl = "/@santicanog_";
+export const demoVideoUrl = "/video/TY6_kvpqIDY";
+export const demoChannelTitle = "gosniak";
 export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+  "The Hundred pixels #2 - Purple Knight - Pixel Art Character Timelaps";
 export const demoProfilePicture =
-  "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
+  "https://yt3.ggpht.com/W5Vn2K-oDhTrkVhZwB9s4tFTYxbDVkiHNynnlXisI5mL97E7KiWs864a2wy7Le_EU8x72Ir56Q=s88-c-k-c0x00ffffff-no-rj-mo";
+
+export const videoDummy = [
+  {
+    demoVideoTitle,
+    demoProfilePicture,
+    demoThumbnail:
+      "https://i.ytimg.com/vi/TY6_kvpqIDY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJRFoSkgtHQtoJScaCAinrpGczIg",
+    demoVideoUrl,
+    demoChannelTitle,
+  },
+  {
+    demoVideoTitle,
+    demoProfilePicture,
+    demoThumbnail:
+      "https://i.ytimg.com/vi/TY6_kvpqIDY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJRFoSkgtHQtoJScaCAinrpGczIg",
+    demoVideoUrl,
+    demoChannelTitle,
+  },
+  {
+    demoVideoTitle,
+    demoProfilePicture,
+    demoThumbnail:
+      "https://i.ytimg.com/vi/TY6_kvpqIDY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJRFoSkgtHQtoJScaCAinrpGczIg",
+    demoVideoUrl,
+    demoChannelTitle,
+  },
+  {
+    demoVideoTitle,
+    demoProfilePicture,
+    demoThumbnail:
+      "https://i.ytimg.com/vi/TY6_kvpqIDY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJRFoSkgtHQtoJScaCAinrpGczIg",
+    demoVideoUrl,
+    demoChannelTitle,
+  },
+  {
+    demoVideoTitle,
+    demoProfilePicture,
+    demoThumbnail:
+      "https://i.ytimg.com/vi/TY6_kvpqIDY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJRFoSkgtHQtoJScaCAinrpGczIg",
+    demoVideoUrl,
+    demoChannelTitle,
+  },
+  {
+    demoVideoTitle,
+    demoProfilePicture,
+    demoThumbnail:
+      "https://i.ytimg.com/vi/TY6_kvpqIDY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJRFoSkgtHQtoJScaCAinrpGczIg",
+    demoVideoUrl,
+    demoChannelTitle,
+  },
+];
