@@ -16,7 +16,7 @@ const App = () => {
   return (
     <ThemeProvider theme={DarkTheme}>
       <BrowserRouter>
-        <Box sx={{ backgroundColor: "#000" }}>
+        <Box sx={{ backgroundColor: "#121212" }}>
           <Navbar />
           <Routes>
             <Route path="/" exact element={<Feed />} />
